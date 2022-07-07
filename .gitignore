@@ -1,0 +1,7 @@
+# tomcat File
+apache*
+
+# VSCode File
+.vscode-server
+.vscode-server/*
+.wget-hsts
