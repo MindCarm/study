@@ -5,3 +5,10 @@ apache*
 .vscode-server
 .vscode-server/*
 .wget-hsts
+.cache/*
+
+# Object File
+*.o
+
+# Extract File
+.viminfo
