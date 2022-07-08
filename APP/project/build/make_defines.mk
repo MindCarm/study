@@ -28,6 +28,8 @@ CXXFLAGS			=	$(ARCH_MODE) $(DEBUG_MODE) $(OPT_OPTIONS) $(DEFINES) $(STDCPP)
 #===============================================================================
 LDFLAGS				=	$(ARCH_MODE) $(OPT_OPTIONS)
 
+PVS_LDFLAGS			=	-I/usr/include/mysql -L/usr/lib64/mysql -lmysqlclient
+
 #===============================================================================
 # Produces a relocatable object
 #===============================================================================

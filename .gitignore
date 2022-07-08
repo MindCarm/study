@@ -1,3 +1,6 @@
+#profile
+.bash_history
+
 # tomcat File
 apache*
 
@@ -6,6 +9,7 @@ apache*
 .vscode-server/*
 .wget-hsts
 .cache/*
+.vscode
 
 # Object File
 *.o
