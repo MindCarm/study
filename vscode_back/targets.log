@@ -1,0 +1,220 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Jul 12 10:23:47 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/mg1/.vscode-server
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/mg1
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"09874dd43d51ab3e79ba0dc34dc94813.ko","_translationsConfigFile":"/home/mg1/.vscode-server/data/clp/09874dd43d51ab3e79ba0dc34dc94813.ko/tcf.json","_cacheRoot":"/home/mg1/.vscode-server/data/clp/09874dd43d51ab3e79ba0dc34dc94813.ko","_resolvedLanguagePackCoreLocation":"/home/mg1/.vscode-server/data/clp/09874dd43d51ab3e79ba0dc34dc94813.ko/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9","_corruptedFile":"/home/mg1/.vscode-server/data/clp/09874dd43d51ab3e79ba0dc34dc94813.ko/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile
+MAKEFILE_LIST := 
+# environment
+HISTCONTROL = ignoredups
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# environment
+VSCODE_CWD = /home/mg1
+# environment
+SSH_CONNECTION = 218.36.252.4 55459 192.168.1.104 22
+# environment
+PATH = /home/mg1/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/bin/remote-cli:/home/mg1/.local/bin:/home/mg1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-be940001-332b-4530-8166-8607b1863fd9.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /home/mg1
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/mg1
+# environment
+LOGNAME = mg1
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+HOSTNAME = localhost.localdomain
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 5
+# environment
+XDG_SESSION_ID = 9
+# environment
+USER = mg1
+# makefile
+.DEFAULT_GOAL := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 218.36.252.4 55459 22
+# environment
+MAIL = /var/spool/mail/mg1
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/mg1/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/bin/helpers/browser.sh
+# environment
+define BASH_FUNC_which%%
+() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot "$@"
+}
+endef
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+HISTSIZE = 1000
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-redhat-linux-gnu
+# environment
+LANG = C
+# environment
+which_declare = declare -f
+# variable set hash-table stats:
+# Load=66/1024=6%, Rehash=0, Collisions=9/88=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2053, inode 1016135): 17 files, no impossibilities.
+
+# 17 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 25 / storage = 269 B / avg = 10 B
+# current buf: size = 8162 B / used = 269 B / count = 25 / avg = 10 B
+
+# strcache performance: lookups = 28 / hit rate = 10%
+# hash-table stats:
+# Load=25/8192=0%, Rehash=0, Collisions=1/28=4%
+# Finished Make data base on Tue Jul 12 10:23:47 2022
+
+ 
+make: *** No rule to make target 'all'.  Stop.
+
