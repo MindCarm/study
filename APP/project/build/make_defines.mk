@@ -1,7 +1,7 @@
 #===============================================================================
 # Compiler & Linker definition
 #===============================================================================
-CXX					=	/usr/bin/g++
+CXX					=	/opt/rh/devtoolset-8/root/usr/bin/g++
 
 PVS_DEBUG_MODE		=
 ARCH_MODE       	=	-m64
@@ -28,7 +28,7 @@ CXXFLAGS			=	$(ARCH_MODE) $(DEBUG_MODE) $(OPT_OPTIONS) $(DEFINES) $(STDCPP)
 #===============================================================================
 LDFLAGS				=	$(ARCH_MODE) $(OPT_OPTIONS)
 
-PVS_LDFLAGS			=	-I/usr/include/mysql -L/usr/lib64/mysql -lmysqlclient
+#PVS_LDFLAGS			=	-I/usr/include/mysql -L/usr/lib64/mysql -lmysqlclient
 
 #===============================================================================
 # Produces a relocatable object
